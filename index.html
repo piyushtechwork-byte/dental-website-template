@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dentiva Dental Clinic - Premium dental care for your family. Expert dentists, advanced treatments, painless procedures.">
+    <meta name="keywords" content="dentist, dental clinic, cosmetic dentistry, implants, orthodontics, dental care">
+    <meta name="author" content="Dentiva Dental Clinic">
+    <meta name="theme-color" content="#003d6b">
+    <meta property="og:title" content="Dentiva - Premium Dental Clinic">
+    <meta property="og:description" content="Expert dental care with modern technology and compassionate service.">
+    <meta property="og:type" content="website">
+    
+    <title>Dentiva Dental Clinic - Premium Dental Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23003d6b'>🦷</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🦷</span>
+                <span class="logo-text">Dentiva</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/919876543210?text=Hi%20Dentiva,%20I%20would%20like%20to%20book%20an%20appointment" class="btn btn-primary-small" target="_blank">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Your Smile, Our Expertise</h1>
+            <p class="hero-subtitle">Premium dental care with advanced technology and compassionate service</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('appointment-form').scrollIntoView({ behavior: 'smooth' })">Book Appointment</button>
+                <a href="tel:+919876543210" class="btn btn-secondary">Call Now</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">10k+</span>
+                    <span class="stat-label">Happy Patients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Advanced Treatments</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="placeholder-image">
+                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="200" cy="200" r="180" fill="#E8F4F8"/>
+                    <circle cx="200" cy="180" r="60" fill="#003d6b"/>
+                    <ellipse cx="200" cy="280" rx="80" ry="60" fill="#00A8D8"/>
+                    <path d="M 160 280 Q 200 320 240 280" stroke="#003d6b" stroke-width="3" fill="none"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Dentiva</h2>
+                <p class="section-subtitle">Excellence in Dental Care Since 2009</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="400" fill="#F0F7FB"/>
+                            <circle cx="200" cy="150" r="70" fill="#003d6b"/>
+                            <rect x="100" y="240" width="200" height="120" fill="#00A8D8"/>
+                            <circle cx="150" cy="280" r="20" fill="#E8F4F8"/>
+                            <circle cx="250" cy="280" r="20" fill="#E8F4F8"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>We're Committed to Your Smile</h3>
+                    <p>At Dentiva Dental Clinic, we believe that everyone deserves a healthy, beautiful smile. With over 15 years of experience, our team of expert dentists uses the latest technology to provide you with the highest quality care.</p>
+                    <p>Our mission is to make dental care accessible, affordable, and anxiety-free for the entire family.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>State-of-the-art equipment</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Painless treatment procedures</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Experienced dental professionals</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Affordable treatment plans</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive dental solutions for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>General Dentistry</h3>
+                    <p>Routine checkups, cleanings, fillings, and preventive care to maintain your oral health.</p>
+                    <ul class="service-list">
+                        <li>Regular Checkups</li>
+                        <li>Professional Cleaning</li>
+                        <li>Cavity Fillings</li>
+                        <li>Root Canal Treatment</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Enhance your smile with teeth whitening, veneers, and bonding treatments.</p>
+                    <ul class="service-list">
+                        <li>Teeth Whitening</li>
+                        <li>Dental Veneers</li>
+                        <li>Teeth Bonding</li>
+                        <li>Smile Makeover</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Orthodontics</h3>
+                    <p>Straighten your teeth with braces and aligners for a perfect smile.</p>
+                    <ul class="service-list">
+                        <li>Metal Braces</li>
+                        <li>Ceramic Braces</li>
+                        <li>Invisible Aligners</li>
+                        <li>Retention Plans</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent solution for missing teeth with natural-looking implants.</p>
+                    <ul class="service-list">
+                        <li>Single Implants</li>
+                        <li>Full Mouth Implants</li>
+                        <li>Implant Crowns</li>
+                        <li>Bone Grafting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👨‍👧‍👦</div>
+                    <h3>Pediatric Dentistry</h3>
+                    <p>Special care for children's teeth with a friendly, fear-free environment.</p>
+                    <ul class="service-list">
+                        <li>Kids Checkups</li>
+                        <li>Fluoride Treatment</li>
+                        <li>Tooth Sealants</li>
+                        <li>Cavity Prevention</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌿</div>
+                    <h3>Periodontal Care</h3>
+                    <p>Treatment for gum disease and prevention of tooth loss.</p>
+                    <ul class="service-list">
+                        <li>Gum Cleaning</li>
+                        <li>Scaling & Root Planing</li>
+                        <li>Gum Surgery</li>
+                        <li>Maintenance Programs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Dentiva?</h2>
+                <p class="section-subtitle">Excellence you can trust</p>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">🏆</div>
+                    <h3>Award-Winning Clinic</h3>
+                    <p>Recognized for excellence in dental care and patient satisfaction</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">👨‍⚕️</div>
+                    <h3>Expert Dentists</h3>
+                    <p>Highly qualified professionals with international certifications</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🔬</div>
+                    <h3>Latest Technology</h3>
+                    <p>Advanced equipment for accurate diagnosis and effective treatment</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Transparent pricing with flexible payment options available</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">⏰</div>
+                    <h3>Convenient Hours</h3>
+                    <p>Extended hours including weekends for your convenience</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">😊</div>
+                    <h3>Patient Comfort</h3>
+                    <p>Relaxing environment with painless procedures and friendly staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-subtitle">Experienced professionals dedicated to your smile</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="placeholder-avatar">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. Rajesh Kumar</h3>
+                    <p class="team-title">Chief Dentist & Founder</p>
+                    <p class="team-bio">BDS, MDS with 15+ years of experience in general and cosmetic dentistry</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="placeholder-avatar">👩‍⚕️</div>
+                    </div>
+                    <h3>Dr. Priya Sharma</h3>
+                    <p class="team-title">Cosmetic & Implant Specialist</p>
+                    <p class="team-bio">BDS, Diploma in Implantology with expertise in smile design</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="placeholder-avatar">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. Anil Verma</h3>
+                    <p class="team-title">Orthodontist</p>
+                    <p class="team-bio">BDS, MDS in Orthodontics specializing in invisible aligners</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="placeholder-avatar">👩‍⚕️</div>
+                    </div>
+                    <h3>Dr. Neha Gupta</h3>
+                    <p class="team-title">Pediatric Dentist</p>
+                    <p class="team-bio">BDS, Specialized training in child psychology and painless procedures</p>
+                    <div class="team-social">
+                        <a href="#" aria-label="LinkedIn">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p class="section-subtitle">Real stories from happy patients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"Dr. Rajesh is amazing! Very professional and the entire team is so friendly. My teeth whitening came out perfect. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div>
+                            <p class="author-name">Arjun Singh</p>
+                            <p class="author-title">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"Best dental clinic in the city! Dr. Priya's smile design consultation changed my life. Finally have the smile I always wanted."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div>
+                            <p class="author-name">Sophia Patel</p>
+                            <p class="author-title">Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"My kids love going to Dentiva! Dr. Neha makes them so comfortable. No fear, no tears. The staff is incredibly patient and caring."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div>
+                            <p class="author-name">Rohit Desai</p>
+                            <p class="author-title">Parent</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"Got my dental implant done here. The procedure was painless and the results are incredible. Feel like I have my real teeth back!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div>
+                            <p class="author-name">Anjali Nair</p>
+                            <p class="author-title">Healthcare Professional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Answers to your dental concerns</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How often should I visit the dentist?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We recommend visiting the dentist at least twice a year for routine checkups and professional cleaning. However, patients with gum disease or other conditions may need more frequent visits. During your appointment, we'll create a personalized schedule based on your oral health needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is teeth whitening safe?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, professional teeth whitening at Dentiva is completely safe when performed by our qualified dentists. We use high-quality, clinically tested whitening agents that are safe for your enamel. Results typically last 6-12 months depending on your lifestyle and habits.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Are dental implants painful?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The implant procedure is performed under local anesthesia, so you won't feel pain during the treatment. You may experience mild discomfort or swelling after the procedure, which is normal and can be managed with prescribed pain medication. Most patients report minimal discomfort during recovery.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What payment options do you offer?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept cash, credit cards, debit cards, and digital payment methods. We also offer flexible payment plans and installment options for major treatments. Please discuss payment arrangements with our reception team during your consultation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you treat dental anxiety?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We understand that many patients have dental anxiety. Our team is trained to handle anxious patients with patience and care. We offer sedation options and always explain procedures in advance. Our calm, friendly environment helps patients feel at ease.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's included in a dental checkup?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A comprehensive dental checkup includes oral examination, digital X-rays if needed, professional cleaning, gum health assessment, and oral cancer screening. We'll also provide recommendations for any treatments or preventive care. The entire process typically takes 45-60 minutes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Book Your Appointment</h2>
+                <p class="section-subtitle">Schedule your visit at your convenience</p>
+            </div>
+            <div class="appointment-content">
+                <div class="appointment-info">
+                    <div class="info-card">
+                        <h3>📞 Call Us</h3>
+                        <p><a href="tel:+919876543210">+91 9876543210</a></p>
+                        <p class="small-text">Mon-Sun: 9:00 AM - 8:00 PM</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>💬 WhatsApp</h3>
+                        <p><a href="https://wa.me/919876543210?text=Hi%20Dentiva,%20I%20would%20like%20to%20book%20an%20appointment" target="_blank">Send Message</a></p>
+                        <p class="small-text">Instant appointment booking</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@dentiva.com">info@dentiva.com</a></p>
+                        <p class="small-text">Response within 2 hours</p>
+                    </div>
+                </div>
+
+                <form id="appointment-form" class="appointment-form">
+                    <h3>Quick Appointment Enquiry</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="general">General Dentistry</option>
+                            <option value="cosmetic">Cosmetic Dentistry</option>
+                            <option value="orthodontics">Orthodontics</option>
+                            <option value="implants">Dental Implants</option>
+                            <option value="pediatric">Pediatric Dentistry</option>
+                            <option value="periodontal">Periodontal Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Additional Message (Optional)" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Maps Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Find Us</h2>
+                <p class="section-subtitle">Visit our modern clinic</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Dentiva Dental Clinic</h3>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <p><strong>Address</strong></p>
+                                <p>123 Smile Street, Medical Complex<br>New Delhi, Delhi 110001, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <p><strong>Phone</strong></p>
+                                <p><a href="tel:+919876543210">+91 9876543210</a></p>
+                                <p><a href="tel:+919876543211">+91 9876543211</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <p><strong>WhatsApp</strong></p>
+                                <p><a href="https://wa.me/919876543210" target="_blank">Message on WhatsApp</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">⏰</span>
+                            <div>
+                                <p><strong>Hours</strong></p>
+                                <p>Mon-Sat: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maps-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5437099076935!2d77.22868!3d28.63408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd288bb00001%3A0x123456789!2sDental%20Clinic!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dentiva Location"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dentiva</h3>
+                    <p>Premium dental care for your entire family with expert dentists and modern technology.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/dentiva" target="_blank" title="Facebook">f</a>
+                        <a href="https://instagram.com/dentiva" target="_blank" title="Instagram">📷</a>
+                        <a href="https://twitter.com/dentiva" target="_blank" title="Twitter">𝕏</a>
+                        <a href="https://youtube.com/@dentiva" target="_blank" title="YouTube">▶</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">General Dentistry</a></li>
+                        <li><a href="#services">Cosmetic Dentistry</a></li>
+                        <li><a href="#services">Orthodontics</a></li>
+                        <li><a href="#services">Dental Implants</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📞 <a href="tel:+919876543210">+91 9876543210</a></li>
+                        <li>📧 <a href="mailto:info@dentiva.com">info@dentiva.com</a></li>
+                        <li>📍 New Delhi, India</li>
+                        <li>⏰ 9 AM - 8 PM Daily</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dentiva Dental Clinic. All rights reserved.</p>
+                <p>
+                    <a href="#privacy">Privacy Policy</a> | 
+                    <a href="#terms">Terms of Service</a> | 
+                    <a href="#disclaimer">Medical Disclaimer</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
